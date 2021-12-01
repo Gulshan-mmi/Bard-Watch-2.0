@@ -1,0 +1,165 @@
+body {
+  background-color: #6699ff;
+  font-family: "Helvetica", sans-serif;
+  color: purple;
+}
+
+/* navbar ul css */
+nav ul {
+  background-color: tomato;
+  border-style: solid;
+  border-color: mediumvioletred;
+  border-width: 2px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+/* list css */
+nav ul li {
+  list-style-type: none;
+  display: inline;
+  margin-left: 10px;
+  margin-right: 10px;
+  color: PapayaWhip;
+}
+
+/* anchor tag css */
+nav ul li a {
+  text-decoration: none;
+  color: indigo;
+}
+
+/* Link hover */
+nav ul li a:hover {
+  animation-name: rainbowGlow;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+}
+@keyframes rainbowGlow {
+  0% {
+    color: #00bfff;
+  }
+  25% {
+    color: #00ff7f;
+  }
+  50% {
+    color: #eeeeaf;
+  }
+  75% {
+    color: #eeafee;
+  }
+  100% {
+    color: #00bfff;
+  }
+}
+h1 {
+  color: Azure;
+  font-family: "Times New Roman", serif;
+}
+
+/* css for id myCoolText */
+#myCoolText {
+  color: #003366;
+  border: 2px ridge #ccffff;
+  padding: 15px;
+  text-align: center;
+}
+#owly {
+  width: 100px;
+  border-radius: 100%;
+}
+/* css for owly hover */
+#owly:hover {
+  animation-name: rollOver;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+}
+
+@keyframes rollOver {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
+#frontpage {
+  background: #48d1cc;
+  background: linear-gradient(#b2cefe, #b2cefe, #baed91, #b2cefe);
+}
+
+img {
+  border-radius: 20px;
+}
+/* image hover effect */
+img:hover,
+.mediumPictures:hover {
+  border: 2px dashed Navy;
+}
+
+.niceLinks {
+  text-decoration: none;
+  color: #fffaf0;
+}
+.niceLinks:hover {
+  color: #00ff7f;
+}
+.mediumPictures {
+  width: 200px;
+  border: 2px solid #f5fffa;
+}
+.smallPictures {
+  width: 100px;
+  border: 2px solid #f5fffa;
+}
+/* section css birds page */
+.topDivider {
+  border-top-style: solid;
+  border-top-width: 2px;
+  border-top-color: #f5fffa;
+  padding-bottom: 10px;
+}
+
+.someSpacing {
+  border: 2px solid white;
+  padding: 10px;
+  margin-top: 20px;
+}
+/* active class css */
+.active {
+  color: white;
+}
+
+/* css for table, header, column sanctuaries page */
+table,
+th,
+td {
+  border: 1px solid HoneyDew;
+  border-collapse: collapse;
+}
+
+/* css for table row sanctuaries page */
+tr {
+  background-color: PaleTurquoise;
+}
+th,
+td {
+  vertical-align: top;
+  padding: 5px;
+  text-align: left;
+}
+th {
+  color: purple;
+}
+td {
+  color: purple;
+}
+
+.stylishBox {
+  background-color: #87cefa;
+  color: #a52a2a;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #f5fffa;
+  border-radius: 10px;
+}
